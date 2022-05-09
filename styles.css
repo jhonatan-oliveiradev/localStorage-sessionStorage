@@ -1,0 +1,130 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:300,400,500,700,800,900&display=swap);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  background: linear-gradient(to right, #f6d365, #fda085);
+}
+
+body {
+  margin-top: 200px;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 1rem;
+  text-align: center;
+  letter-spacing: 0.1rem;
+  margin-top: 2.5rem;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 2rem;
+  color: #fff;
+  background: linear-gradient(to right, #f6d365, #fda085);
+  border-radius: 0.5rem;
+}
+
+form h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 1rem;
+  text-align: center;
+  letter-spacing: 0.1rem;
+}
+
+form input {
+  width: 100%;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  background: #fff;
+  color: #000;
+  font-size: 1.2rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+form input[type="submit"] {
+  background: #fff;
+  color: #000;
+  font-size: 1.2rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  cursor: pointer;
+  transition: all 0.3s;
+  margin-top: 1rem;
+}
+
+form input[type="submit"]:hover {
+  background: linear-gradient(to right, #f6d365, #fda085);
+  color: #fff;
+}
+
+#welcome {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 1rem;
+  text-align: center;
+  letter-spacing: 0.1rem;
+  margin-top: 2.5rem;
+}
+
+#welcome h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 1rem;
+  text-align: center;
+  letter-spacing: 0.1rem;
+}
+
+#welcome span {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+#welcome button {
+  width: 35%;
+  background: #fff;
+  color: #000;
+  font-size: 1.2rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  cursor: pointer;
+  transition: all 0.3s;
+  margin-top: 1rem;
+}
+
+#welcome button:hover {
+  background: linear-gradient(to right, #f6d365, #fda085);
+  color: #fff;
+}
